@@ -9,6 +9,7 @@ def main():
     while token.type != Token.EOF:
         print(f"Token: {lexer.symbolicNames[token.type]}, Text: {token.text}")
         token = lexer.nextToken()
+   
 
 if __name__ == "__main__":
     main()
